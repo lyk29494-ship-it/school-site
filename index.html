@@ -1,40 +1,188 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>忠信镇中心小学 · 数字未来校园</title>
-    <style>
-        :root {
-            --deep-blue: #1a365d;
-            --teal: #2d7a7a;
-            --teal-light: #4a9c9c;
-            --warm-orange: #e8a87c;
-            --warm-yellow: #f5d76e;
-            --light-bg: #f8fafc;
-            --text-primary: #1a202c;
-            --text-secondary: #4a5568;
-            --text-muted: #718096;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <!-- 网站标题（非常重要，决定搜索） -->
+  <title>忠信镇中心小学官方网站</title>
 
-        html {
-            scroll-behavior: smooth;
-        }
+  <!-- 网站描述（搜索结果下面那行字） -->
+  <meta name="description" content="忠信镇中心小学官方网站，提供学校简介、校园新闻、教学成果、师资队伍、家校互动等信息，是家长了解学校的重要窗口。">
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-            line-height: 1.8;
-            color: var(--text-primary);
-            background: var(--light-bg);
-            overflow-x: hidden;
-        }
+  <!-- 基础SEO -->
+  <meta name="keywords" content="忠信镇中心小学,忠信镇小学,中心小学,学校官网">
+  <meta name="author" content="忠信镇中心小学">
 
+  <style>
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(6px);
+    }
+
+    nav a {
+      padding: 14px 20px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 24px;
+      border-left: 5px solid #4fc3f7;
+      padding-left: 12px;
+    }
+
+    .card p {
+      line-height: 1.8;
+      font-size: 15px;
+      opacity: 0.95;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 28px;
+      }
+      nav {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 页面第一行：学校全名（SEO 核心） -->
+  <header>
+    <h1>忠信镇中心小学</h1>
+    <p>立德树人 · 科技引领 · 全面发展</p >
+  </header>
+
+  <!-- 导航 -->
+  <nav>
+    <a href=" ">学校简介</a >
+    <a href="#news">校园新闻</a >
+    <a href="#teaching">教学成果</a >
+    <a href="#teachers">师资队伍</a >
+    <a href="#home">家校互动</a >
+    <a href="#contact">联系我们</a >
+  </nav>
+
+  <!-- 内容 -->
+  <section>
+
+    <div class="card" id="about">
+      <h2>学校简介</h2>
+      <p>
+        忠信镇中心小学是一所办学历史悠久、教学环境优美的公办小学。
+        学校坚持“以学生发展为本”的办学理念，注重学生德智体美劳全面发展，
+        努力打造具有时代特色和创新精神的现代化学校。
+      </p >
+    </div>
+
+    <div class="card" id="news">
+      <h2>校园新闻</h2>
+      <p>
+        学校持续开展丰富多彩的校园活动，包括科技节、读书节、体育运动会等，
+        不断提升学生综合素养，营造积极向上的校园文化氛围。
+      </p >
+    </div>
+
+    <div class="card" id="teaching">
+      <h2>教学成果</h2>
+      <p>
+        忠信镇中心小学在课堂教学改革、信息化教学应用等方面取得显著成效，
+        多名学生在各类竞赛中获得优异成绩，教学质量稳步提升。
+      </p >
+    </div>
+
+    <div class="card" id="teachers">
+      <h2>师资队伍</h2>
+      <p>
+        学校拥有一支业务精湛、责任心强的教师队伍，
+        教师们积极探索现代教育技术，不断提升教学水平，
+        为学生成长提供坚实保障。
+      </p >
+    </div>
+
+    <div class="card" id="home">
+      <h2>家校互动</h2>
+      <p>
+        忠信镇中心小学重视家校沟通，通过家长会、线上平台等多种形式，
+        加强学校与家庭之间的联系，共同促进学生健康成长。
+      </p >
+    </div>
+
+    <div class="card" id="contact">
+      <h2>联系我们</h2>
+      <p>
+        地址：忠信镇中心小学<br>
+        电话：暂无<br>
+        邮箱：暂无
+      </p >
+    </div>
+
+  </section>
+
+  <footer>
+    © 2025 忠信镇中心小学 | 本网站用于教学与展示
+  </footer>
+
+</body>
+</html>
         .section {
             min-height: 100vh;
             position: relative;
